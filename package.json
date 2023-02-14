@@ -1,0 +1,19 @@
+{
+  "name": "pi-02-2023",
+  "version": "1.0.0",
+  "description": "Programación Imperativa. Materia de la carrera CTD - DH",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/serinformatico/PI-02-2023.git"
+  },
+  "author": "Lic. Sergio Regalado Alessi",
+  "license": "MIT",
+  "homepage": "https://github.com/serinformatico/PI-02-2023#readme",
+  "dependencies": {
+      "prompt-sync": "^4.2.0"
+  }
+}
