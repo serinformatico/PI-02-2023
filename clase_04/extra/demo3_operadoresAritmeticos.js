@@ -5,6 +5,7 @@
         Multiplicación *
         División /
         Módulo %
+        Potenciación **
         Incremento ++
         Decremento --
 */
@@ -16,6 +17,7 @@ console.log(9 - 2);             // Resta 9-2 e imprime el resultado en consola (
 console.log(4 * 3);             // Multiplica 4*3 e imprime el resultado en consola (12)
 console.log(10 / 4);            // Divide 10/4 e imprime el resultado en consola (2.5)
 console.log(8 % 2);             // Módulo 8%2 e imprime el resultado en consola (0)
+console.log(2 ** 3);            // Potenciación 2*3 e imprime el resultado en consola (8)
 
 let f = 20;
 let g = 25;
