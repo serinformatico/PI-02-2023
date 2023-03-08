@@ -19,7 +19,10 @@ function contar() {
 
 function contarYDescontar() {
     for (let i = 1; i <= 10; i++) {
-        console.log("contando: " + i, "\tDescontando: " + (11-i));
+        let contando    = "Contando: " + i;
+        let descontando = "\tDescontando: " + (11-i);
+
+        console.log(contando, descontando);
     }
 }
 
@@ -37,7 +40,7 @@ function determinarNumerosPrimos() {
             }
         }
 
-        if (comprobacion == true) console.log(numero);;
+        if (comprobacion == true) console.log(numero);
     }
 }
 
