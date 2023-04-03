@@ -1,6 +1,6 @@
 function ordenarAscendentemente(vector) {
     for (let i = 0; i < vector.length-1; i++) {
-        for (let j = 0; j < vector.length; j++) {
+        for (let j = 0; j < vector.length-1; j++) {
             let auaxiliarDePosicionActual    = vector[j];           
             let auaxiliarDePosicionSiguiente = vector[j+1];
             
@@ -22,7 +22,7 @@ console.log(ordenarAscendentemente([ 2, 10, 4, 7, 1, -7, 6]));
 
 function ordenarDescendentemente(vector) {
     for (let i = 0; i < vector.length-1; i++) {
-        for (let j = 0; j < vector.length; j++) {
+        for (let j = 0; j < vector.length-1; j++) {
             let auaxiliarDePosicionActual    = vector[j];           
             let auaxiliarDePosicionSiguiente = vector[j+1];
             
@@ -44,14 +44,14 @@ console.log(ordenarDescendentemente([ 2, 10, 4, 7, 1, -7, 6]));
 
 const ASC  = "ASCENDENTE";
 const DESC = "DESCENDENTE";
-function ordenarPorTipoDeOrden(vector, tipoDeOrden) {
+function ordenarPorTipoDeOrden(vector, sentido) {
     for (let i = 0; i < vector.length-1; i++) {
-        for (let j = 0; j < vector.length; j++) {
+        for (let j = 0; j < vector.length-1; j++) {
             let auaxiliarDePosicionActual    = vector[j];           
             let auaxiliarDePosicionSiguiente = vector[j+1];
 
             let tipoDeComparacion = 
-                (tipoDeOrden === ASC) ? 
+                (sentido === ASC) ? 
                 (auaxiliarDePosicionActual > auaxiliarDePosicionSiguiente) :
                 (auaxiliarDePosicionActual < auaxiliarDePosicionSiguiente) ;
 
