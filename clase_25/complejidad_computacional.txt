@@ -1,0 +1,14 @@
+La Teoría de la Complejidad computacional estudia los recursos requeridos
+para resolver un problema como son el tiempo y el espacio; por su parte la
+teoría de la computabilidad se interesa en expresar los problemas como
+algoritmos sin tener en cuenta la información sobre los recursos necesarios
+para ello.
+
+Se mide en cantidad de instrucciones y no en el tiempo empleado debido a
+que el tiempo varía según la tecnología de la maquina en donde se ejecute.
+
+Las instrucciones son:
+    -> Comparaciones
+    -> Asignaciones
+    -> Acceso a índices y/o sub-índices
+    -> Operaciones aritméticas
